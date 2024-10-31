@@ -20,7 +20,7 @@ const proxy = createProxyMiddleware({
   }
 });
 
-app.use('/', proxy);
+app.use('/burnedprojects/pt_noise_build/betterrunner.html', proxy);
 
 const port = process.env.PORT || 443;
 app.listen(port, () => {
