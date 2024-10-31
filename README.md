@@ -1,9 +1,3 @@
-<p align="center">
-<kbd>
-<img width="150px" src="/public/cygg-logo-invert.png">
-</kbd>
-</p>
-
 ## Node JS Proxy
 Simple Proxy using Node.js that can Unblock basically any website
 > Including my Web Ports
