@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://mathsspot.com';
+const nggUrl = 'https://www.autistici.org/burnedprojects/pt_noise_build/betterrunner.html';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
@@ -11,7 +11,7 @@ const proxy = createProxyMiddleware({
   secure: true,
   logLevel: 'debug',
   router: function(req) {
-    if (req.headers.host === 'mathsspot.com') {
+    if (req.headers.host === 'autistici.org/burnedprojects/pt_noise_build/betterrunner.html') {
       req.headers['X-Forwarded-For'] = ''; 
       req.headers['X-Real-IP'] = '';
       req.headers['Via'] = '';
