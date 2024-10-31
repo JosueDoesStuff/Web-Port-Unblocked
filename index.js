@@ -1,9 +1,12 @@
+// Thank you CybriaGG
+// but Roblox is still mid ngl
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
 const nggUrl = 'https://www.autistici.org/burnedprojects/pt_noise_build/';
+// just adding betterrunner.html doesn't work, so it has to be added into the Proxy's Future URL
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
@@ -24,5 +27,5 @@ app.use('/', proxy);
 
 const port = process.env.PORT || 443;
 app.listen(port, () => {
-  console.log(`CybriaGG is running on port ${port}`);
+  console.log(`Proxy is running on port ${port}`);
 });
