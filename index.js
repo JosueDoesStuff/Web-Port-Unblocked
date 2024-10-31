@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://www.autistici.org/burnedprojects/pt_noise_build/betterrunner.html';
+const nggUrl = 'https://www.autistici.org/burnedprojects/pt_noise_build/';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
@@ -20,7 +20,7 @@ const proxy = createProxyMiddleware({
   }
 });
 
-app.use('/burnedprojects/pt_noise_build/', proxy);
+app.use('/', proxy);
 
 const port = process.env.PORT || 443;
 app.listen(port, () => {
