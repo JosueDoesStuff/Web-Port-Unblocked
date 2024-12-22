@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r125.zip/';
+const nggUrl = 'https://html-classic.itch.zone/html/2876359-1104083/index.html?v=1732313800';
 // just adding betterrunner.html doesn't work, so it has to be added into the Proxy's Future URL
 
 const proxy = createProxyMiddleware({
