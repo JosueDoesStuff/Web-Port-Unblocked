@@ -1,11 +1,11 @@
-// Thank you CybriaGG
+// burnedpopcorn is not cool /j
 // but Roblox is still mid ngl
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://www.autistici.org/burnedprojects/';
+const nggUrl = 'https://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r125.zip/';
 // just adding betterrunner.html doesn't work, so it has to be added into the Proxy's Future URL
 
 const proxy = createProxyMiddleware({
