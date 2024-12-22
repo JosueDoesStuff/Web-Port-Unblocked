@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://nowgg.lol';
+const nggUrl = 'https://play.geforcenow.com/mall/';
 // just adding betterrunner.html doesn't work, so it has to be added into the Proxy's Future URL
 
 const proxy = createProxyMiddleware({
