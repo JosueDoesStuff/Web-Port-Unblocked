@@ -5,7 +5,7 @@
     "http-proxy": "^1.18.1"
   },
   "name": "cybriagg",
-  "description": "CybriaGG is an unblocked site for users to access & play Roblox freely on Now.GG",
+  "description": "cybria",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,8 @@
     
   },
   "keywords": [
-    "roblox",
-    "nowgg"
+    "cool",
+    "boy"
   ],
   "author": "CybriaTech",
   "license": "ISC"
