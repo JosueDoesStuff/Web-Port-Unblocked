@@ -5,7 +5,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'staticin.pages.dev';
+const nggUrl = 'https://nodiddydogwasatthediddyparty.global.ssl.fastly.net/';
 // just adding betterrunner.html doesn't work, so it has to be added into the Proxy's Future URL
 
 const proxy = createProxyMiddleware({
